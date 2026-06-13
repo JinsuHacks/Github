@@ -1,35 +1,37 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>SmoothActions</title>
-  <style>
-    body { 
-      width: 250px; 
-      font-family: sans-serif; 
-      padding: 10px; 
-    }
-    button {
-      width: 100%;
-      padding: 10px;
-      margin: 6px 0;
-      background: #4f46e5;
-      color: white;
-      border: none;
-      border-radius: 6px;
-      cursor: pointer;
-    }
-    button:hover {
-      background: #4338ca;
-    }
-  </style>
+  <link rel="stylesheet" href="popup.css">
 </head>
 <body>
-  <h2>SmoothActions</h2>
+  <div class="container">
+    <h1 class="title">SmoothActions</h1>
+    <p class="subtitle">One‑click automations</p>
 
-  <button id="copyCode">Copy All Code Blocks</button>
-  <button id="cleanUrl">Clean URL</button>
-  <button id="autoScroll">Auto Scroll</button>
-  <button id="downloadImages">Download Images</button>
+    <div class="actions">
+      <button id="copyCode" class="action-btn">
+        <span>:P</span> Copy All Code Blocks
+      </button>
+
+      <button id="cleanUrl" class="action-btn">
+        <span>>:0</span> Clean URL
+      </button>
+
+      <button id="autoScroll" class="action-btn">
+        <span>?!</span> Auto Scroll
+      </button>
+
+      <button id="downloadImages" class="action-btn">
+        <span>;></span> Download Images
+      </button>
+    </div>
+
+    <div class="footer">
+      <span>O_0 Settings</span>
+      <span>•</span>
+      <span>:3 About</span>
+    </div>
+  </div>
 
   <script src="popup.js"></script>
 </body>
